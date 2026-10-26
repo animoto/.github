@@ -15,7 +15,7 @@ https://animoto.atlassian.net/browse/<TICKET-KEY>
 Check exactly one. Use the highest tier that applies: one matching item is enough.
 Judge what the change could do if it is wrong, not how confident you are that it is right.
 -->
-- [ ] **High**: billing, payments or entitlements; infrastructure; authentication or authorization; anything that can delete, overwrite or orphan persisted data; anything hard to reverse once shipped (a destructive migration, a published package version, a production flag default).
+- [ ] **High**: billing, payments or entitlements; infrastructure; authentication or authorization; anything that can delete, overwrite or orphan persisted data; anything hard to reverse once shipped (a destructive migration, a published package version that consumers adopt without their own change, a production flag default).
   **A human review must be completed before merge.**
 - [ ] **Medium**: new endpoints; schema changes that are not destructive; non-trivial logic changes; changes whose blast radius crosses services or repos.
   **May merge without a pre-merge human review, but is flagged for human review after merge.**
